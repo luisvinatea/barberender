@@ -18,3 +18,4 @@ streamlit run app.py
 ```
 
 ### Alternativa: Acessar pelo Render
+https://barberender.onrender.com/
