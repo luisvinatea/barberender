@@ -18,10 +18,10 @@ pd.set_option("display.max_rows", 100)
 # ======================== PROCESSAMENTO DE DADOS ================================================
 
 # Definindo o diretório raiz do projeto
-BASE_DIR = Path().resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Definindo o caminho para o arquivo CSV de veículos
-car_data_path = BASE_DIR / "data/vehicles.csv"
+car_data_path = BASE_DIR / "data" / "vehicles.csv"
 
 # Carregando os dados
 car_data = pd.read_csv(car_data_path)
